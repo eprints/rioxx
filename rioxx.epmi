@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' id='http://eprints-devel.localdomain:8080/id/epm/rioxx' uuid='urn:uuid:fee5136b-4106-55cd-a4df-58a6dd5bf7f0'>
+  <epmid>rioxx</epmid>
+  <uri>http://eprints-devel.localdomain:8080/id/epm/rioxx</uri>
+  <documents>
+    <document>
+      <format>other</format>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>Brody</family>
+        <given>Tim</given>
+      </name>
+      <id>tdb2@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <title>RIOXX Application Profile Export</title>
+  <description>An export plugin that is aimed at UK HE repositories to supply data to RCUK to complete with the RCUK Open Access Policy (April 2013).</description>
+  <home_page>http://www.rioxx.net/</home_page>
+</epm>
