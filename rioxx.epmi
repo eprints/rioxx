@@ -4,7 +4,18 @@
   <uri>http://eprints-devel.localdomain:8080/id/epm/rioxx</uri>
   <documents>
     <document>
-      <format>other</format>
+      <files>
+        <file>
+          <filename>plugins/EPrints/Plugin/Export/RIOXX.pm</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>1c952debfdadf552001ce0fd361bab5c</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>462</filesize>
+        </file>
+      </files>
+      <mime_type>text/plain</mime_type>
+      <format>text</format>
+      <main>plugins/EPrints/Plugin/Export/RIOXX.pm</main>
       <content>install</content>
     </document>
   </documents>
