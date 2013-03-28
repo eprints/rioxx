@@ -16,8 +16,6 @@ sub new
 	$self->{xmlns} = "http://docs.rioxx.net/schema/v1.0/",
 	$self->{schemaLocation} = "http://docs.rioxx.net/schema/v1.0/rioxx.xsd";
 
-$self->{disable} = 0;
-
 	return $self;
 }
 
@@ -234,6 +232,9 @@ sub xml_dataobj
 				];
 		}
 	}
+
+	my $f = $self->param('extra_fields');
+	&$f($self, $eprint, \@data) if defined $f;
 
 	for(@data)
 	{
